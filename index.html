@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- divinectotweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech html css javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+        <textarea id="content"></textarea>
+        <button id="btnArea">Speak now</button>
+    </div>
+
+      
+    <script>
+        const content = document.getElementById("content");
+        const btnArea = document.getElementById("btnArea");
+
+        btnArea.addEventListener("click", () => {
+        const utterance = new SpeechSynthesisUtterance(content.value);
+        window.speechSynthesis.speak(utterance);
+        });
+
+    </script>  
+      
+</body>
+</html>

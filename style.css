@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0; 
+  }
+  body {
+    background: #091a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+      padding: 50px;
+      background: #15242b;
+  }
+  
+  textarea {
+      width: 200px;
+      height: 100px;
+      margin-bottom: 20px;
+      border: 10px ridge #fff;
+      line-height: 1.5;
+      font-family: montserrat;
+      font-weight: 200;
+      padding: 15px;
+  }
+  
+  button {
+      padding: 10px 145px;
+      background-color: #00b5ff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-family: montserrat;
+      font-weight: 900;
+      display: block;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+  body {
+    background-image: url('https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fix the background image in place */
+}
